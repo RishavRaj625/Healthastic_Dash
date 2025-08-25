@@ -158,10 +158,10 @@ const Dashboard = () => {
 
   // Main/Core Healthcare Features
   const coreHealthFeatures = [
-    "Vision + Voice + RAG",
     "Finding Nearest Doctor",
     "Call to Book Appointment",
     "Medicine Price Finder",
+    "Vision + Voice + RAG",
     "OCR Prescription Scanning",
     "Find Similar Medicine",
     "Medicine Comparison",
