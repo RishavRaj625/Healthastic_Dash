@@ -118,6 +118,44 @@ health-dashboard/
    npm run dev
    ```
 
+# Get started with Tailwind CSS by using react-vite
+1. Create your project
+   ```bash
+   npm create vite@latest my-app -- --template react
+   cd my-app
+   npm install
+   ```
+2. Install Tailwind CSS
+   ```bash
+   npm install tailwindcss @tailwindcss/vite
+   ```
+3. Configure the Vite plugin
+: Add the @tailwindcss/vite plugin to your Vite configuration(vite.config.js)
+   ```bash
+       import { defineConfig } from 'vite'
+       import react from '@vitejs/plugin-react'
+       import tailwindcss from '@tailwindcss/vite'
+
+       export default defineConfig({
+         plugins: [
+         react(),
+         tailwindcss(),
+         ],
+       })
+
+   ```
+4. Import Tailwind CSS
+: Add an @import to your CSS file that imports Tailwind CSS(src/index.css)
+
+   ```bash
+      @import "tailwindcss";
+   ```
+5. Start your build process
+: Run your build process with npm run dev or whatever command is configured in your package.json file.
+   ```bash
+         npm run dev
+   ```
+
 ### Backend Setup
 
 1. **Node.js/Express API**
