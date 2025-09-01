@@ -177,7 +177,7 @@ const featureMapping = {
 
 ### Gemini API Integration
 - Natural language processing for health queries
-- Personalized recommendations based on user input
+- Personalized recommendations based on user input(Diet recommendations)
 - Multi-modal AI capabilities for vision and voice features
 
 ### Custom ML Models
