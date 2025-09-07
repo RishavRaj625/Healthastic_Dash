@@ -13,7 +13,7 @@ A comprehensive healthcare management platform that combines artificial intellig
 - **Medicine Reminder** - Smart medication tracking and reminders
 - **Doctor Finder** - Location-based doctor and clinic discovery
 - **Blood Bank Locator** - Emergency blood bank finder with real-time availability
-- **RAG-based Medical Consultation** - Retrieval-Augmented Generation system for accurate medical guidance
+- **RAG-based Medical Consultation** - Retrieval-Augmented Generation system for accurate medical guidance.
 
 ## 🛠 Technology Stack
 
